@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="To-Do-List.css">
+    <title>To-Do-List</title>
+</head>
+<body>
+    <section>
+        <div id="todos">
+            <div class="heading">
+                <h1>Add To Do list...</h1>
+            </div>
+        <input type="text" id="myInput">
+
+        <button class="add-item" onclick='addItems()'>Add Items</button>
+        <button class="deleteBtn" onclick="removeItems()">Delete Selected</button>
+      
+        <ul id="myUL">
+           <div id="addingItemDiv">
+           </div>
+        </ul>
+        </div>
+        
+
+    </section>
+
+    <script src="To-Do-List.js"></script>
+</body>
+</html>

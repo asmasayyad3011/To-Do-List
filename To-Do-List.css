@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('BG-Img.webp');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Tapestry', cursive; 
+}
+h1{
+    color: #fff;
+    margin-top: 180px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+#myInput{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+.add-item{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background: teal;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.deleteBtn{
+    width: 115px;
+    height: 41px;
+    border: none;
+    background: teal;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    margin: 12px 0 0;
+}
+
+
+.button input{
+    margin-right: 5px;
+}
+
+
+#myUL{
+    padding: 2px;
+}
+
+#addingItemDiv{
+    display: inline-grid;
+    width: 100%;
+}
+
+label{
+    margin-bottom: 10px;
+    background: #fff;
+    position: relative;
+}
+/*
+.deleteBtn{
+    margin-left: 10px;
+} */
+
+#addingItemDiv input{
+    margin: 10px 10px;
+}
+.deleteBtn1{
+    width: 90px;
+    height: 35px;
+    border: none;
+    background: teal;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    color: #fff;
+}
